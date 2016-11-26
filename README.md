@@ -1,4 +1,6 @@
-# Testiranje
+# Testno upravljanje signalnim planovima  MATLAB - VISSIM
+
+# Upute za korištenje
 
 UPUTE
 1. 
