@@ -1,6 +1,6 @@
 clear all;
 clc;
-filename = 'C:\Users\Kapusta\Documents\MATLAB\Simulacija Testiranje raskrizja\VISSIM\proba1.sig'; %putanja do dokumenta
+filename = 'C:\Users\Kapusta\Documents\MATLAB\Testiranje signalnih planova\VISSIM\proba1.sig'; %putanja do dokumenta
 
 signalniPlan = DohvatiSignalniPlan(filename);
 
@@ -8,8 +8,8 @@ signalniPlan = DohvatiSignalniPlan(filename);
 vissim = actxserver('VISSIM.Vissim.900');
 
 % Ucitavanje mreze
-vissim.LoadNet('C:\Users\Kapusta\Documents\MATLAB\Simulacija Testiranje raskrizja\VISSIM\proba.inpx');
-vissim.LoadLayout('C:\Users\Kapusta\Documents\MATLAB\Simulacija Testiranje raskrizja\VISSIM\proba.layx');
+vissim.LoadNet('C:\Users\Kapusta\Documents\MATLAB\Testiranje signalnih planova\VISSIM\proba.inpx');
+vissim.LoadLayout('C:\Users\Kapusta\Documents\MATLAB\Testiranje signalnih planova\VISSIM\proba.layx');
 
 % Globalna varijabla za pristupanje simulaciji (objekt simulacije)
 sim = vissim.Simulation;
